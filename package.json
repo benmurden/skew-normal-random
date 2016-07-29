@@ -1,0 +1,26 @@
+{
+  "name": "skew-normal-random",
+  "version": "1.0.0",
+  "description": "Generate random numbers in a skew-normal distribution, optionally truncated.",
+  "author": "Benjamin Murden <ben.murden@gmail.com>",
+  "scripts": {
+    "test": "node test.js",
+  },
+  "main": "lib/skewnorm.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benmurden/skew-normal-random"
+  },
+  "bugs": {
+    "url": "https://github.com/benmurden/skew-normal-random/issues"
+  },
+  "keywords": [
+    "skew",
+    "skewed",
+    "normal",
+    "distribution",
+    "random"
+  ],
+  "analyze": true,
+  "license": "MIT"
+}
