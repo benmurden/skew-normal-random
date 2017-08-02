@@ -6,9 +6,11 @@ Generate a set of random numbers over a skew-normal distribution.
 ## Usage
 
 `rSkewNorm(alpha, location, scale, [min], [max])`
+
 Generate a single random number, optionally limited by a minimum and maximum. If `alpha` is zero, it would be the same as a regular normal distribution.
 
 `rvSkewNorm(size, alpha, location, scale, [min], [max])`
+
 Generate an array of `size` with random numbers generated according to the specification provided.
 
 ## Examples
