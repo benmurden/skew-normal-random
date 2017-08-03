@@ -16,7 +16,7 @@ Generate an array of `size` with random numbers generated according to the speci
 ## Examples
 
 ```javascript
-var skewnorm = require('skewnorm');
+var skewnorm = require('skew-normal-random');
 
 skewnorm.rSkewNorm(0, 0, 1); // Will generate a single random number with no skew.
 skewnorm.rSkewNorm(6, 5, 2); // Will generate a single random number skewed such that the mean is 7, rather than 5.
