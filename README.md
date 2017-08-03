@@ -3,6 +3,11 @@ Generate a set of random numbers over a skew-normal distribution.
 
 [![Build Status](https://travis-ci.org/benmurden/skew-normal-random.svg?branch=master)](https://travis-ci.org/benmurden/skew-normal-random)
 
+## Installation
+```bash
+npm install skew-normal-random
+```
+
 ## Usage
 
 `rSkewNorm(alpha, location, scale, [min], [max])`
